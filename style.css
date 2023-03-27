@@ -47,8 +47,8 @@ body {
 
 .navbar-pos {
     width: 100%;
-    position: fixed;
-    top: 0px;
+    /* position: fixed; */
+    /* top: 0px; */
     background-color: white;
 }
 
@@ -112,31 +112,35 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+
 /* ------------------------------------(RESPONSIVE-NAVBAR)----------------------------------------- */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 40px;
     display: none;
-    background-color: rgb(0, 255, 162);
-    position: fixed;
-    top: 0;
+    /* background-color: rgb(0, 255, 162); */
+    /* position: fixed; */
+    /* top: 0; */
     width: 100%;
 }
-nav img{
-width: 100px;
+
+nav img {
+    width: 100px;
 }
 
-nav span{
+nav span {
     display: flex;
 }
-nav span h4{
+
+nav span h4 {
     font-weight: 400;
     padding-top: 10px;
     padding-right: 10px;
 }
-nav span i{
+
+nav span i {
     color: #F9C935;
     font-size: 25px;
 }
@@ -183,25 +187,30 @@ nav span i{
     font-weight: bold;
     font-size: 16px;
 }
+
 .bike-bg-image {
     height: 70vh;
     background-image: url(./image/page-2-img.png);
     background-position: center;
     background-size: cover;
 }
-.bike-container{
+
+.bike-container {
     display: none;
 }
-.bike-container-color{
+
+.bike-container-color {
     height: 110vh;
     background-color: #F9C935;
 }
-.bike-container-image{
+
+.bike-container-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.bike-container-image img{
+
+.bike-container-image img {
     width: 950px;
 }
 
@@ -865,15 +874,18 @@ nav span i{
     padding: 10px;
 
 }
-.footer-section hr{
+
+.footer-section hr {
     margin: 10px 50px;
-    
+
 }
-.copy{
+
+.copy {
     text-align: center;
     margin-top: 30px;
 }
-.copy p{
+
+.copy p {
     color: #858585;
     font-size: 14px;
 }
@@ -882,64 +894,80 @@ nav span i{
 
 
 
+
+
+
+
+
+
 /* -------------------------------------(RESPONSIVE)-------------------------------------- */
-@media(max-width:768px){
-    
-    .banner-bg-color{
+@media(max-width:768px) {
+
+    .banner-bg-color {
         display: none;
     }
 
-    .navbar-pos{
+    .navbar-pos {
         display: none;
     }
-    nav{
+
+    nav {
         display: block;
         display: flex;
         /* position: fixed;
         top: 0; */
     }
+
     .banner-text {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height:600px;
+        height: 600px;
         width: 100%;
         padding-left: 0px;
         float: left;
         /* border: 2px solid rgb(0, 255, 34); */
     }
-    .banner-text h1{
+
+    .banner-text h1 {
         font-size: 30px;
         line-height: 35px;
         text-align: center;
     }
-    .banner-text p{
+
+    .banner-text p {
         width: 75%;
         margin-right: 120px;
         font-weight: 300;
     }
-    .bike-sections{
+
+    .bike-sections {
         /* border: 2px solid red; */
         height: 90vh;
         margin-top: 170px;
     }
-    .bike-bg-image{
+
+    .bike-bg-image {
         height: 80vh;
     }
-    .bike-container{
+
+    .bike-container {
         display: block;
     }
-    .bike-container-color{
+
+    .bike-container-color {
         height: 160vh;
         background-color: #F9C935;
     }
-    .bike-container-image img{
+
+    .bike-container-image img {
         width: 750px;
     }
+
     .hero-bg-color {
         display: none;
     }
- 
-    
+
+
 }
